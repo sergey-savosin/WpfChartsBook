@@ -67,6 +67,10 @@
       <SubType>Code</SubType>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ObjectMatrixTransformations.xaml.cs">
+      <DependentUpon>ObjectMatrixTransformations.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PerpendicularLine.xaml.cs">
       <DependentUpon>PerpendicularLine.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -80,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="MatrixOperations.xaml" />
+    <Page Include="ObjectMatrixTransformations.xaml" />
     <Page Include="PerpendicularLine.xaml" />
   </ItemGroup>
   <ItemGroup>

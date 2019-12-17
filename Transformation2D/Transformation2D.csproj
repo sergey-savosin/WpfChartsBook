@@ -81,11 +81,16 @@
       <SubType>Code</SubType>
       <DependentUpon>MatrixOperations.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ScaleTransforms.xaml.cs">
+      <DependentUpon>ScaleTransforms.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MatrixOperations.xaml" />
     <Page Include="ObjectMatrixTransformations.xaml" />
     <Page Include="PerpendicularLine.xaml" />
+    <Page Include="ScaleTransforms.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
